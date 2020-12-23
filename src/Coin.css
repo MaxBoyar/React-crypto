@@ -17,43 +17,37 @@
 
 .coin-row h1{
     font-size: 1.3rem;
-    width: 150px;
+   
+ 
+ }
+ .coin-row p{
+    font-size: 1rem;
+    
  
  }
 
-/* .coin-container{
-    display: flex;
-    justify-content: center;
-}
-
-
-.coin{
-    display: flex;
-    align-items: center;
-    padding-right: 24px;
-    min-width: 300px;
-}  */
 
 .img{
-    /* width: 1.5rem; */
     height: 2rem;
 }
 
-/* 
 
-
-
-.coin-data{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 100%;
+.coin-perc{
+    margin-left: 2rem;
+    color: teal;
+    
 }
-
-.coin-price{
-    width: 110px;
-}
-
-.coin-volume{
-    width: 155px;
-} */
+@media only screen and (max-width: 600px) {
+    .coin-row p{
+        font-size: 0.9rem;
+        
+        
+     
+     }
+     .coin-row h1{
+        font-size: 1rem;
+        
+     
+     }
+    
+  }
